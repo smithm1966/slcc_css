@@ -59,7 +59,7 @@ div{
     margin: 20px 20px;
 }
 p{
-    line-height: 30px;
+    line-height: 20px;
     margin: 20px 20px;
 }
 h1{
@@ -102,8 +102,46 @@ a:visited{
 }
 .card{
     background-color: lavender;
+    padding: 20px;
     border: 1px solid #7d7d7d;
     text-align: center;
-    /*border-radius: inherit;*/
     box-shadow: #7d7d7d;
+    display: block;
+}
+.img_circle{
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+.tablehead{
+    text-align: center;
+    font-size: larger;
+}
+#hobby td {
+    vertical-align: top;
+    text-align: left;
+}
+#hobby p{
+    margin:5px
+}
+#hobby h3{
+    margin: 5px;
+    font-weight: bold;
+}
+.Banner{
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.Watch{
+    position:relative;
+    height:386px;
+    width:386px;
+}
+.bottomtext{
+    text-align: center;
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px;
+    width:365px;
+    margin:0px;
 }
